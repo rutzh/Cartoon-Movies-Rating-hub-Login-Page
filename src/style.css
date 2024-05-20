@@ -35,19 +35,23 @@ main {
     padding: 20px;
 }
 .input{
-  border-radius: 5px;
-  border: none;
-  box-shadow: 1px 5px 5px rgb(74, 74, 75);
-  padding: 20px 20px ;
+  border-radius: 2px;
+ 
+  padding: 10px 20px ;
   font-size: 16px;
+  padding-bottom: 30px;
+  
 
 }
 .loginButton{
   margin-top: 40px;
   padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
   border-radius:15px ;
   background-color: rgb(97, 15, 199);
   border: none;
+  box-shadow: 2px 2px 2px rgb(125, 86, 174);
   transition: all 200ms ease-in-out;
 
 }
@@ -64,6 +68,6 @@ main {
  height: 400px;
  border-radius: 5px;
 }
-footer {
+.register {
   text-align: center;
 }
