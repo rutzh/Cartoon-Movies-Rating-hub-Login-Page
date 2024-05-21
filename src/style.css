@@ -35,11 +35,11 @@ main {
     padding: 20px;
 }
 .input{
-  border-radius: 2px;
- 
   padding: 10px 20px ;
   font-size: 16px;
   padding-bottom: 30px;
+  padding: 20px 60px;
+  text-align: left;
   
 
 }
@@ -69,5 +69,23 @@ main {
  border-radius: 5px;
 }
 .register {
+  text-align: center;
+  font-size: 18px;
+  color:red;
+font-weight: 900;
+}
+.link{
+  color: blue;
+  font-size: 20px;
+  
+  transition: all 250ms ease-in-out;
+}
+.link:hover{
+ color: rgb(114, 114, 183);  
+}
+.owner{
+  border-top: 1px solid rgb(203, 201, 201);
+  padding: 15px;
+  font-size: 18px;
   text-align: center;
 }
