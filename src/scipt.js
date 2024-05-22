@@ -1,5 +1,5 @@
-
-function checkInputs(event){
+//function that checks inputs
+/*function checkInputs(event){
 
     event.preventDefault();
     
@@ -14,11 +14,29 @@ if (userName.trim() === "" || passWord.trim() === "") {
 else
  {
   let h1 = document.querySelector("h1");
-  h1.innerHTML = "Your in" + " " + userName+ " " + "😊";
+  h1.innerHTML = 
+  "Your in" + " " + userName+ " " + "😊";
 }
 
 }
 
  let login = document.querySelector("#login-form");
  login.addEventListener("submit", checkInputs);
+*/
 
+//Function provides a registration form 
+function registrationForm(event){
+
+  //prevents browser from its default behaviour
+  event.preventDefault();
+
+document.getElementById("registration-form").style.display = "block";
+ 
+  document.getElementById("login-form").style.display="none";
+
+  
+
+
+}
+let registrationLink = document.getElementById("register-link");
+registrationLink.addEventListener("click",registrationForm);

@@ -34,20 +34,17 @@ main {
     justify-content: center;
     padding: 20px;
 }
-.input{
+input{
   padding: 10px 20px ;
   font-size: 16px;
-  padding-bottom: 30px;
   padding: 20px 60px;
   text-align: left;
   border-radius: 15px;
   border: 1px groove #a696c8;
   
-  
-  
-
 }
-.loginButton{
+/*This styles both the login and registration button*/
+.loginButton,.registration-button{
   margin-left: 60px;
   margin-top: 20px;
   padding: 10px 30px;
@@ -60,7 +57,7 @@ main {
   transition: all 200ms ease-in-out;
 
 }
-.loginButton:hover{
+.loginButton,.registration-button:hover{
   background-color: rgb(123, 89, 164);;
 }
 
@@ -101,3 +98,5 @@ line-height: 40px;
   color:black;
   
 }
+/*Registration Form Styling */
+
