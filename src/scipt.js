@@ -25,7 +25,7 @@ else
 */
 
 //Function provides a registration form 
-function registrationForm(event){
+/*function registrationForm(event){
 
   //prevents browser from its default behaviour
   event.preventDefault();
@@ -34,7 +34,12 @@ document.getElementById("registration-form").style.display = "block";
  
   document.getElementById("login-form").style.display="none";
 
-  
+  document.getElementById("image-container").classList.add("hidden");
+
+
+}
+// this function deals with display the login form
+function showLoginForm (){
 
 
 }
