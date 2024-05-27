@@ -7,22 +7,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
 
+
     <link rel="stylesheet" href="src/style.css">
     <title>LoginPage</title>
 </head>
 
-<body>
+<body class="body-login">
   
   <div class="loginPage" id="login-page">
     
 <main >
   
-    <div class="form" id="login-form">
+    <div id="login-form-container">
     <h1>
    👋🏽Welcome Back..
  </h1>  
-<form >
-  <input type="search"  placeholder="Enter your username"  class="input" id="username-input" required>
+<form class="login-form">
+  <input type="search"  placeholder="Enter your username"  class="input-form" id="username-input" required>
   <br>
   <br>
   <input type="password" placeholder="Password" class="input" id="password-input" required>
@@ -36,32 +37,13 @@
     <img src="/backgroundImages/cartoon1.jpeg" class="image">
   </div>
 
-<div class="registrationForm"  id="registration-form" >
-
-  <h1>
-    Registration form..✏️
-  </h1>
-<form >
-  <label >First Name </label>
-  <input type="search">
-  <label >Surname </label>
-  <input type="search" >
-  <label >Phone number</label>
-  <input type="text" placeholder="000000000">
-  <label > Email</label>
-  <input type="text" placeholder="Rue@gmail.com">
- <label > Create a password</label>
-<input type="password" placeholder="Atleast 7 characters">
-<input type="button" value=" Create account" class="registration-button">
-</form>
-</div>
 
 
 </main>
 <footer>
     <p class="register">
         Don't have an account ?
-        <a href="#"class="link" id="register-link">Register here</a>
+        <a href="/registration.html"class="link" id="register-link">Register here</a>
     </p>
     
     <p class="owner" >
